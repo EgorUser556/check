@@ -1,0 +1,65 @@
+:root {
+  font-family: Arial, sans-serif;
+  color: #24352c;
+  background-color: #f8f7f3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+.main-content {
+  display: grid;
+  min-height: 100vh;
+  padding: 24px;
+  place-items: center;
+}
+
+.test-card {
+  width: 100%;
+  max-width: 480px;
+  padding: 32px;
+  border: 1px solid #deded5;
+  border-radius: 16px;
+  background-color: #fff;
+}
+
+.test-label {
+  margin: 0 0 12px;
+  color: #637568;
+  font-size: 14px;
+}
+
+.test-title {
+  margin: 0 0 16px;
+  font-size: 40px;
+}
+
+.test-description {
+  margin: 0 0 24px;
+  line-height: 1.5;
+}
+
+.counter-button {
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #315c43;
+  font: inherit;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: #244632;
+}
+
+.counter-button:focus-visible {
+  outline: 3px solid #7b9e87;
+  outline-offset: 4px;
+}
